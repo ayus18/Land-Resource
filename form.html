@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<style>
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+
+<body>
+
+    <h3> Form </h3>
+
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+
+            <label for="state">State</label>
+            <select id="state" name="country">
+                <option value="Uttrakhand">State</option>
+                <option value="Madhya pradesh">Madhya pradesh</option>
+                <option value="Uttrakhand">Uttrakhand</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttar Pradesh">Punjab</option>
+                <option value="Uttar Pradesh">Karnataka</option>
+                <option value="Uttar Pradesh">Himachal Pradesh</option>
+                <option value="Uttar Pradesh">Tamil Nadu</option>
+                <option value="Uttar Pradesh">kerala</option>
+                <option value="Uttar Pradesh">Jammu</option>
+                <option value="Uttar Pradesh">Maharashtra</option>
+                <option value="Uttar Pradesh">Rajasthan</option>
+                <option value="Uttar Pradesh">Gujrat</option>
+                <option value="Uttar Pradesh">Assam</option>
+                <option value="Uttar Pradesh">Manipur</option>
+                <option value="Uttar Pradesh">Bihar</option>
+                <option value="Uttar Pradesh">Chattisgarh</option>
+                <option value="Uttar Pradesh">Odisha</option>
+                <option value="Uttar Pradesh">Arunachal Pradesh</option>
+                <option value="Uttar Pradesh">Andhra Pradesh</option>
+                <option value="Uttar Pradesh">Telangana</option>
+            </select>
+            <label for="lname">City</label>
+            <input type="text" id="lname" name="lastname" placeholder="City">
+            <label for="lname">Address</label>
+            <input type="text" id="lname" name="lastname" placeholder="Address">
+            <label for="lname">PINCODE</label>
+            <input type="text" id="lname" name="lastname" placeholder="PINCODE">
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="abc@gmail.com">
+            <label for="lname"></label>
+            <label for="lname">Phone Number</label>
+            <input type="text" id="lname" name="lastname" placeholder="Contact no.">
+            <label for="lname"></label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
